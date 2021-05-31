@@ -9,14 +9,9 @@
     "jest": "^26.6.3"
   },
   "scripts": {
-<<<<<<< HEAD
     "test": "jest"
-=======
-    "test": " jest"
->>>>>>> 965555298c0eab5d593206524b367ddf54dbaee8
   },
   "dependencies": {
-    "@babel/preset-env": "^7.14.2",
-    "global": "^4.4.0"
+    "@babel/preset-env": "^7.14.2"
   }
 }

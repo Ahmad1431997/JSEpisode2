@@ -33,7 +33,6 @@
  * console.log(numbers);  // [1, 2, 4] (missing the random element)
  ************************************************/
 
-
 // the solution
 Array.prototype.getRandom = function () {
   return this.splice(Math.floor(Math.random() * this.length), 1)[0];
@@ -73,7 +72,6 @@ function pairs(names) {
 }
 
 module.exports = pairs;
-
 
 console.log(
   pairs(["Asis", "Hamsa", "Fawas", "Mishmish", "Hussein", "Lailz", "Mr Potato"])
