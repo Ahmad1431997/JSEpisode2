@@ -32,12 +32,12 @@ function pairs(names) {
       y[i] = x;
     }
     return y;
+  }
+}
 
-  }};
-  
 module.exports = pairs;
- 
+
+
 console.log(
-  pairs(["Asis", "Hamsa", "Fawas", "Mishmish", "Hussein", "Lailz", "yousef"])
+  pairs(["Asis", "Hamsa", "Fawas", "Mishmish", "Hussein", "Lailz", "Mr Potato"])
 );
-//done
